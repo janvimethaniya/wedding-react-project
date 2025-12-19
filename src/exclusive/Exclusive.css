@@ -1,0 +1,30 @@
+.exclusive{
+    display: flex;
+   
+    gap: 50px;
+    padding: 50px;
+}
+.exclusive img{
+    height: 445px;
+    width:600px;
+    margin-top: -257px;
+}
+.exclusive .love{
+    margin-top: -230px;
+}
+.exclusive .love h1{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.exclusive .love p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .love button{
+    margin-left: -15px;
+}

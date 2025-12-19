@@ -1,0 +1,86 @@
+.color {
+  background: #e9d7dc; 
+  padding: 50px 0;
+  margin-top: 780px;
+  width:1520px;
+  height: 1380px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.heading h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #2c2c2c;
+  margin-bottom: 8px;
+}
+
+.heading p {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.images {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+
+.wedding {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.wedding img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s ease-in-out;
+  filter: brightness(60%);  
+}
+
+
+.wedding p {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  z-index: 2;
+}
+
+.wedding:hover img {
+  transform: scale(1.05);
+  filter: brightness(40%);
+}
+.branding h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 508px;
+padding: 50px;
+}
+.para p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 520px;
+  padding-bottom:40px;
+  margin-bottom: 18px;
+}
+ button{
+  margin-left: 700px;
+  padding:10px 20px;
+  font-size:16px;
+  background-color:#583664;
+  color:white;
+  border:black;
+  border-radius:5px;
+  cursor:pointer;
+}
