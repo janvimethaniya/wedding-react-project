@@ -1,5 +1,5 @@
 import React from "react";
-import "./Wedding.css";
+import "./wedding.css";
 import cakeImage from "../assets/wedding.jpg"; 
 import bouquetImage from "../assets/buket.jpg"; 
 
